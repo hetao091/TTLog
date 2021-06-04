@@ -1,0 +1,201 @@
+# compiler: R8
+# compiler_version: 2.1.75
+# pg_map_id: a614c8e
+# common_typos_disable
+tt.reducto.log.AndroidLogAdapter -> a.a.a.a:
+    tt.reducto.log.FormatStrategy formatStrategy -> a
+    42:42:void <init>() -> <init>
+    49:49:void <init>(tt.reducto.log.FormatStrategy) -> <init>
+    53:53:boolean isLoggable(int,java.lang.String) -> a
+    57:58:void log(int,java.lang.String,java.lang.String) -> a
+tt.reducto.log.BuildConfig -> a.a.a.b:
+    boolean DEBUG -> a
+    java.lang.String BUILD_TYPE -> c
+    java.lang.String LIBRARY_PACKAGE_NAME -> b
+    7:7:void <clinit>() -> <clinit>
+    6:6:void <init>() -> <init>
+tt.reducto.log.FormatStrategy -> a.a.a.c:
+    void log(int,java.lang.String,java.lang.String) -> a
+tt.reducto.log.JsonTools -> a.a.a.d:
+    tt.reducto.log.JsonTools INSTANCE -> a
+    18:18:void <clinit>() -> <clinit>
+    18:18:void <init>() -> <init>
+    70:73:void addIndentBlank(java.lang.StringBuilder,int) -> a
+    82:118:java.lang.String decodeUnicode(java.lang.String) -> a
+    26:60:java.lang.String formatJson(java.lang.String) -> b
+tt.reducto.log.LogAdapter -> a.a.a.e:
+    boolean isLoggable(int,java.lang.String) -> a
+    void log(int,java.lang.String,java.lang.String) -> a
+tt.reducto.log.LogStrategy -> a.a.a.f:
+    void log(int,java.lang.String,java.lang.String) -> a
+tt.reducto.log.LogcatLogStrategy -> a.a.a.g:
+    tt.reducto.log.LogcatLogStrategy$Companion Companion -> b
+    java.lang.String DEFAULT_TAG -> a
+    260:260:void <init>() -> <init>
+    264:275:void log(int,java.lang.String,java.lang.String) -> a
+tt.reducto.log.LogcatLogStrategy$Companion -> a.a.a.g$a:
+    277:277:void <init>() -> <init>
+    277:277:void <init>(kotlin.jvm.internal.DefaultConstructorMarker) -> <init>
+tt.reducto.log.Operator -> a.a.a.h:
+    void addAdapter(tt.reducto.log.LogAdapter) -> a
+    void clearLogAdapters() -> a
+    void d(java.lang.Object) -> a
+    void d(java.lang.String,java.lang.Object[]) -> a
+    void e(java.lang.Throwable,java.lang.String,java.lang.Object[]) -> a
+    void json(java.lang.String) -> a
+    void log(int,java.lang.String,java.lang.String,java.lang.Throwable) -> a
+    void e(java.lang.String,java.lang.Object[]) -> b
+    void xml(java.lang.String) -> b
+    void i(java.lang.String,java.lang.Object[]) -> c
+    tt.reducto.log.Operator t(java.lang.String) -> c
+    void wtf(java.lang.String,java.lang.Object[]) -> d
+    void v(java.lang.String,java.lang.Object[]) -> e
+    void w(java.lang.String,java.lang.Object[]) -> f
+tt.reducto.log.TTFormatStrategy -> tt.reducto.log.TTFormatStrategy:
+    java.lang.String DOUBLE_DIVIDER -> g
+    boolean showThreadInfo -> n
+    tt.reducto.log.LogStrategy logStrategy -> o
+    java.lang.String TOP_BORDER -> i
+    int methodCount -> l
+    java.lang.String SINGLE_DIVIDER -> h
+    int methodOffset -> m
+    java.lang.String MIDDLE_BORDER -> k
+    java.lang.String BOTTOM_BORDER -> j
+    java.lang.String tag -> p
+    int MIN_STACK_OFFSET -> b
+    int CHUNK_SIZE -> a
+    tt.reducto.log.TTFormatStrategy$Companion Companion -> q
+    char BOTTOM_LEFT_CORNER -> d
+    char TOP_LEFT_CORNER -> c
+    char HORIZONTAL_LINE -> f
+    char MIDDLE_CORNER -> e
+    25:25:void <init>(tt.reducto.log.TTFormatStrategy$Builder,kotlin.jvm.internal.DefaultConstructorMarker) -> <init>
+    25:25:void <init>(tt.reducto.log.TTFormatStrategy$Builder):25 -> <init>
+    28:65:void <init>(tt.reducto.log.TTFormatStrategy$Builder) -> <init>
+    25:25:void <init>(tt.reducto.log.TTFormatStrategy$Builder,kotlin.jvm.internal.DefaultConstructorMarker) -> <init>
+    75:101:void log(int,java.lang.String,java.lang.String) -> a
+    114:151:void logHeaderContent(int,java.lang.String,int) -> a
+    154:155:void logBottomBorder(int,java.lang.String) -> a
+    187:196:int getStackOffset(java.lang.StackTraceElement[]) -> a
+    201:203:java.lang.String formatTag(java.lang.String) -> a
+    161:162:void logDivider(int,java.lang.String) -> b
+    175:176:void logChunk(int,java.lang.String,java.lang.String) -> b
+    179:180:java.lang.String getSimpleClassName(java.lang.String) -> b
+    107:108:void logTopBorder(int,java.lang.String) -> c
+    168:284:void logContent(int,java.lang.String,java.lang.String) -> c
+tt.reducto.log.TTFormatStrategy$Builder -> tt.reducto.log.TTFormatStrategy$Builder:
+    206:212:void <init>() -> <init>
+    244:247:tt.reducto.log.TTFormatStrategy build() -> build
+    210:210:tt.reducto.log.LogStrategy getLogStrategy() -> getLogStrategy
+    207:207:int getMethodCount() -> getMethodCount
+    208:208:int getMethodOffset() -> getMethodOffset
+    209:209:boolean getShowThreadInfo() -> getShowThreadInfo
+    212:212:java.lang.String getTag() -> getTag
+    233:234:tt.reducto.log.TTFormatStrategy$Builder logStrategy(tt.reducto.log.LogStrategy) -> logStrategy
+    215:216:tt.reducto.log.TTFormatStrategy$Builder methodCount(int) -> methodCount
+    221:222:tt.reducto.log.TTFormatStrategy$Builder methodOffset(int) -> methodOffset
+    210:210:void setLogStrategy(tt.reducto.log.LogStrategy) -> setLogStrategy
+    207:207:void setMethodCount(int) -> setMethodCount
+    208:208:void setMethodOffset(int) -> setMethodOffset
+    209:209:void setShowThreadInfo(boolean) -> setShowThreadInfo
+    212:212:void setTag(java.lang.String) -> setTag
+    227:228:tt.reducto.log.TTFormatStrategy$Builder showThreadInfo(boolean) -> showThreadInfo
+    239:240:tt.reducto.log.TTFormatStrategy$Builder tag(java.lang.String) -> tag
+tt.reducto.log.TTFormatStrategy$Companion -> tt.reducto.log.TTFormatStrategy$Companion:
+    67:67:void <init>() -> <init>
+    67:67:void <init>(kotlin.jvm.internal.DefaultConstructorMarker) -> <init>
+    69:69:tt.reducto.log.TTFormatStrategy$Builder newBuilder() -> newBuilder
+tt.reducto.log.TTHttpLog -> tt.reducto.log.TTHttpLog:
+    tt.reducto.log.TTHttpLog$Companion Companion -> c
+    tt.reducto.log.Operator printer -> b
+    java.lang.StringBuilder mOkHttpBuilder -> a
+    23:33:void <clinit>() -> <clinit>
+    20:20:void <init>() -> <init>
+    void okHttp(java.lang.String) -> a
+    20:20:java.lang.StringBuilder access$getMOkHttpBuilder$cp() -> a
+    20:20:void access$setPrinter$cp(tt.reducto.log.Operator) -> a
+    20:20:tt.reducto.log.Operator access$getPrinter$cp() -> b
+tt.reducto.log.TTHttpLog$Companion -> tt.reducto.log.TTHttpLog$Companion:
+    22:22:void <init>(kotlin.jvm.internal.DefaultConstructorMarker) -> <init>
+    22:22:void <init>():22 -> <init>
+    22:22:void <init>(kotlin.jvm.internal.DefaultConstructorMarker) -> <init>
+    36:65:void d(java.lang.Object) -> d
+    45:62:void okHttp(java.lang.String) -> okHttp
+tt.reducto.log.TTLog -> tt.reducto.log.TTLog:
+    tt.reducto.log.Operator printer -> g
+    tt.reducto.log.TTLog$Companion Companion -> i
+    int ASSERT -> f
+    int WARN -> d
+    int ERROR -> e
+    tt.reducto.log.AndroidLogAdapter mDefaultAdapter -> h
+    int DEBUG -> b
+    int INFO -> c
+    int VERBOSE -> a
+    36:41:void <clinit>() -> <clinit>
+    22:22:void <init>() -> <init>
+    void addLogAdapter(tt.reducto.log.LogAdapter) -> a
+    void d(java.lang.Object) -> a
+    void d(java.lang.String,java.lang.Object[]) -> a
+    void e(java.lang.Throwable,java.lang.String,java.lang.Object[]) -> a
+    void json(java.lang.String) -> a
+    void log(int,java.lang.String,java.lang.String,java.lang.Throwable) -> a
+    22:22:tt.reducto.log.AndroidLogAdapter access$getMDefaultAdapter$cp() -> a
+    22:22:void access$setMDefaultAdapter$cp(tt.reducto.log.AndroidLogAdapter) -> a
+    22:22:void access$setPrinter$cp(tt.reducto.log.Operator) -> a
+    void e(java.lang.String,java.lang.Object[]) -> b
+    void printer(tt.reducto.log.Operator) -> b
+    tt.reducto.log.Operator t(java.lang.String) -> b
+    22:22:tt.reducto.log.Operator access$getPrinter$cp() -> b
+    void clearLogAdapters() -> c
+    void i(java.lang.String,java.lang.Object[]) -> c
+    void xml(java.lang.String) -> c
+    void v(java.lang.String,java.lang.Object[]) -> d
+    void w(java.lang.String,java.lang.Object[]) -> e
+    void wtf(java.lang.String,java.lang.Object[]) -> f
+tt.reducto.log.TTLog$Companion -> tt.reducto.log.TTLog$Companion:
+    25:25:void <init>() -> <init>
+    25:25:void <init>(kotlin.jvm.internal.DefaultConstructorMarker) -> <init>
+    58:63:void addLogAdapter(tt.reducto.log.LogAdapter) -> addLogAdapter
+    70:71:void clearLogAdapters() -> clearLogAdapters
+    93:94:void d(java.lang.String,java.lang.Object[]) -> d
+    98:101:void d(java.lang.Object) -> d
+    105:106:void e(java.lang.String,java.lang.Object[]) -> e
+    110:113:void e(java.lang.Throwable,java.lang.String,java.lang.Object[]) -> e
+    117:118:void i(java.lang.String,java.lang.Object[]) -> i
+    143:144:void json(java.lang.String) -> json
+    88:89:void log(int,java.lang.String,java.lang.String,java.lang.Throwable) -> log
+    48:51:void printer(tt.reducto.log.Operator) -> printer
+    75:75:tt.reducto.log.Operator t(java.lang.String) -> t
+    122:123:void v(java.lang.String,java.lang.Object[]) -> v
+    127:128:void w(java.lang.String,java.lang.Object[]) -> w
+    135:136:void wtf(java.lang.String,java.lang.Object[]) -> wtf
+    151:152:void xml(java.lang.String) -> xml
+tt.reducto.log.TTLogOperator -> a.a.a.i:
+    java.lang.ThreadLocal localTag -> b
+    java.util.List logAdapters -> c
+    int JSON_INDENT -> a
+    31:41:void <init>() -> <init>
+    44:45:void addAdapter(tt.reducto.log.LogAdapter) -> a
+    56:57:void d(java.lang.String,java.lang.Object[]) -> a
+    60:61:void d(java.lang.Object) -> a
+    68:69:void e(java.lang.Throwable,java.lang.String,java.lang.Object[]) -> a
+    88:111:void json(java.lang.String) -> a
+    137:138:void clearLogAdapters() -> a
+    148:213:void log(int,java.lang.String,java.lang.String,java.lang.Throwable) -> a
+    175:178:void tLog(int,java.lang.Throwable,java.lang.String,java.lang.Object[]) -> a
+    64:65:void e(java.lang.String,java.lang.Object[]) -> b
+    114:131:void xml(java.lang.String) -> b
+    203:208:java.lang.String getTag() -> b
+    48:52:tt.reducto.log.Operator t(java.lang.String) -> c
+    76:77:void i(java.lang.String,java.lang.Object[]) -> c
+    84:85:void wtf(java.lang.String,java.lang.Object[]) -> d
+    80:81:void v(java.lang.String,java.lang.Object[]) -> e
+    72:73:void w(java.lang.String,java.lang.Object[]) -> f
+    184:195:java.lang.String createMessage(java.lang.String,java.lang.Object[]) -> g
+tt.reducto.log.Tools -> a.a.a.j:
+    tt.reducto.log.Tools INSTANCE -> a
+    26:26:void <clinit>() -> <clinit>
+    26:26:void <init>() -> <init>
+    29:43:java.lang.String getStackTraceString(java.lang.Throwable) -> a
+    48:55:java.lang.String logLevel(int) -> a
+    64:97:java.lang.String toString(java.lang.Object) -> a

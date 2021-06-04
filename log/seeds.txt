@@ -1,0 +1,203 @@
+tt.reducto.log.TTLog: void wtf(java.lang.String,java.lang.Object[])
+tt.reducto.log.Tools: Tools()
+tt.reducto.log.TTLogOperator: void w(java.lang.String,java.lang.Object[])
+tt.reducto.log.TTFormatStrategy$Builder: void setShowThreadInfo(boolean)
+tt.reducto.log.Tools: tt.reducto.log.Tools INSTANCE
+tt.reducto.log.TTFormatStrategy: java.lang.String formatTag(java.lang.String)
+tt.reducto.log.Operator: void d(java.lang.Object)
+tt.reducto.log.TTHttpLog: java.lang.StringBuilder access$getMOkHttpBuilder$cp()
+tt.reducto.log.Tools: java.lang.String logLevel(int)
+tt.reducto.log.TTLog: void access$setMDefaultAdapter$cp(tt.reducto.log.AndroidLogAdapter)
+tt.reducto.log.TTFormatStrategy$Companion: TTFormatStrategy$Companion(kotlin.jvm.internal.DefaultConstructorMarker)
+tt.reducto.log.TTLog$Companion: void printer(tt.reducto.log.Operator)
+tt.reducto.log.TTLogOperator: int JSON_INDENT
+tt.reducto.log.BuildConfig: <clinit>()
+tt.reducto.log.Operator
+tt.reducto.log.TTFormatStrategy$Builder: int methodOffset
+tt.reducto.log.TTLog: void printer(tt.reducto.log.Operator)
+tt.reducto.log.TTLogOperator
+tt.reducto.log.BuildConfig: java.lang.String BUILD_TYPE
+tt.reducto.log.TTLog: void e(java.lang.Throwable,java.lang.String,java.lang.Object[])
+tt.reducto.log.LogcatLogStrategy$Companion: LogcatLogStrategy$Companion(kotlin.jvm.internal.DefaultConstructorMarker)
+tt.reducto.log.LogcatLogStrategy$Companion
+tt.reducto.log.TTFormatStrategy: tt.reducto.log.TTFormatStrategy$Companion Companion
+tt.reducto.log.TTLog$Companion: void d(java.lang.String,java.lang.Object[])
+tt.reducto.log.TTLogOperator: void tLog(int,java.lang.Throwable,java.lang.String,java.lang.Object[])
+tt.reducto.log.TTFormatStrategy: char TOP_LEFT_CORNER
+tt.reducto.log.AndroidLogAdapter: boolean isLoggable(int,java.lang.String)
+tt.reducto.log.TTHttpLog$Companion: TTHttpLog$Companion(kotlin.jvm.internal.DefaultConstructorMarker)
+tt.reducto.log.TTLog: int WARN
+tt.reducto.log.TTLog
+tt.reducto.log.Operator: tt.reducto.log.Operator t(java.lang.String)
+tt.reducto.log.JsonTools: java.lang.String decodeUnicode(java.lang.String)
+tt.reducto.log.Tools: java.lang.String getStackTraceString(java.lang.Throwable)
+tt.reducto.log.TTLog$Companion: void clearLogAdapters()
+tt.reducto.log.TTLog$Companion: void i(java.lang.String,java.lang.Object[])
+tt.reducto.log.Operator: void d(java.lang.String,java.lang.Object[])
+tt.reducto.log.TTLog$Companion: void e(java.lang.Throwable,java.lang.String,java.lang.Object[])
+tt.reducto.log.TTLogOperator: java.util.List logAdapters
+tt.reducto.log.TTLog: void d(java.lang.Object)
+tt.reducto.log.Operator: void v(java.lang.String,java.lang.Object[])
+tt.reducto.log.Operator: void clearLogAdapters()
+tt.reducto.log.TTFormatStrategy$Builder
+tt.reducto.log.TTLog: tt.reducto.log.AndroidLogAdapter mDefaultAdapter
+tt.reducto.log.TTHttpLog: tt.reducto.log.TTHttpLog$Companion Companion
+tt.reducto.log.TTFormatStrategy: java.lang.String MIDDLE_BORDER
+tt.reducto.log.TTFormatStrategy: tt.reducto.log.LogStrategy logStrategy
+tt.reducto.log.TTFormatStrategy$Companion
+tt.reducto.log.TTLog: int INFO
+tt.reducto.log.TTFormatStrategy: java.lang.String SINGLE_DIVIDER
+tt.reducto.log.TTHttpLog$Companion: TTHttpLog$Companion()
+tt.reducto.log.TTLog$Companion: TTLog$Companion(kotlin.jvm.internal.DefaultConstructorMarker)
+tt.reducto.log.TTLog$Companion: void wtf(java.lang.String,java.lang.Object[])
+tt.reducto.log.TTFormatStrategy: void logChunk(int,java.lang.String,java.lang.String)
+tt.reducto.log.TTFormatStrategy: int methodCount
+tt.reducto.log.TTFormatStrategy: char HORIZONTAL_LINE
+tt.reducto.log.TTLog$Companion: void w(java.lang.String,java.lang.Object[])
+tt.reducto.log.TTHttpLog: <clinit>()
+tt.reducto.log.Tools: java.lang.String toString(java.lang.Object)
+tt.reducto.log.TTLogOperator: void addAdapter(tt.reducto.log.LogAdapter)
+tt.reducto.log.TTLog$Companion: void e(java.lang.String,java.lang.Object[])
+tt.reducto.log.TTLog: tt.reducto.log.Operator access$getPrinter$cp()
+tt.reducto.log.LogcatLogStrategy$Companion: LogcatLogStrategy$Companion()
+tt.reducto.log.LogStrategy: void log(int,java.lang.String,java.lang.String)
+tt.reducto.log.TTHttpLog$Companion: void okHttp(java.lang.String)
+tt.reducto.log.TTLog: int DEBUG
+tt.reducto.log.TTFormatStrategy: void logTopBorder(int,java.lang.String)
+tt.reducto.log.LogcatLogStrategy: java.lang.String DEFAULT_TAG
+tt.reducto.log.TTFormatStrategy$Builder: void setMethodCount(int)
+tt.reducto.log.TTLog$Companion: void addLogAdapter(tt.reducto.log.LogAdapter)
+tt.reducto.log.TTHttpLog
+tt.reducto.log.TTLogOperator: void e(java.lang.String,java.lang.Object[])
+tt.reducto.log.TTLog$Companion: tt.reducto.log.Operator t(java.lang.String)
+tt.reducto.log.JsonTools: JsonTools()
+tt.reducto.log.JsonTools: tt.reducto.log.JsonTools INSTANCE
+tt.reducto.log.LogAdapter: boolean isLoggable(int,java.lang.String)
+tt.reducto.log.TTLogOperator: java.lang.String getTag()
+tt.reducto.log.LogcatLogStrategy
+tt.reducto.log.TTFormatStrategy: <clinit>()
+tt.reducto.log.Operator: void i(java.lang.String,java.lang.Object[])
+tt.reducto.log.TTLogOperator: void log(int,java.lang.String,java.lang.String,java.lang.Throwable)
+tt.reducto.log.TTLogOperator: java.lang.ThreadLocal localTag
+tt.reducto.log.LogcatLogStrategy: <clinit>()
+tt.reducto.log.TTLog: tt.reducto.log.Operator printer
+tt.reducto.log.TTFormatStrategy: void logDivider(int,java.lang.String)
+tt.reducto.log.TTLogOperator: void wtf(java.lang.String,java.lang.Object[])
+tt.reducto.log.TTLogOperator: void clearLogAdapters()
+tt.reducto.log.Operator: void e(java.lang.String,java.lang.Object[])
+tt.reducto.log.AndroidLogAdapter
+tt.reducto.log.TTHttpLog$Companion
+tt.reducto.log.TTFormatStrategy: int CHUNK_SIZE
+tt.reducto.log.TTFormatStrategy: void logBottomBorder(int,java.lang.String)
+tt.reducto.log.TTFormatStrategy: java.lang.String getSimpleClassName(java.lang.String)
+tt.reducto.log.TTFormatStrategy$Builder: TTFormatStrategy$Builder()
+tt.reducto.log.TTFormatStrategy: void logContent(int,java.lang.String,java.lang.String)
+tt.reducto.log.TTFormatStrategy: char BOTTOM_LEFT_CORNER
+tt.reducto.log.TTLog: TTLog()
+tt.reducto.log.TTLog$Companion: void d(java.lang.Object)
+tt.reducto.log.TTFormatStrategy$Builder: tt.reducto.log.LogStrategy logStrategy
+tt.reducto.log.TTLog$Companion: void json(java.lang.String)
+tt.reducto.log.TTLogOperator: java.lang.String createMessage(java.lang.String,java.lang.Object[])
+tt.reducto.log.TTFormatStrategy: TTFormatStrategy(tt.reducto.log.TTFormatStrategy$Builder,kotlin.jvm.internal.DefaultConstructorMarker)
+tt.reducto.log.TTLogOperator: void json(java.lang.String)
+tt.reducto.log.TTLog$Companion: void v(java.lang.String,java.lang.Object[])
+tt.reducto.log.TTLogOperator: void v(java.lang.String,java.lang.Object[])
+tt.reducto.log.TTLog: int VERBOSE
+tt.reducto.log.TTFormatStrategy: java.lang.String DOUBLE_DIVIDER
+tt.reducto.log.TTLog: void i(java.lang.String,java.lang.Object[])
+tt.reducto.log.BuildConfig: BuildConfig()
+tt.reducto.log.TTLog: tt.reducto.log.AndroidLogAdapter access$getMDefaultAdapter$cp()
+tt.reducto.log.TTLog: void log(int,java.lang.String,java.lang.String,java.lang.Throwable)
+tt.reducto.log.TTFormatStrategy: java.lang.String TOP_BORDER
+tt.reducto.log.AndroidLogAdapter: AndroidLogAdapter(tt.reducto.log.FormatStrategy)
+tt.reducto.log.TTLogOperator: void d(java.lang.String,java.lang.Object[])
+tt.reducto.log.TTLog: tt.reducto.log.TTLog$Companion Companion
+tt.reducto.log.TTHttpLog: java.lang.StringBuilder mOkHttpBuilder
+tt.reducto.log.Operator: void wtf(java.lang.String,java.lang.Object[])
+tt.reducto.log.TTLog$Companion: void xml(java.lang.String)
+tt.reducto.log.LogAdapter
+tt.reducto.log.TTLog: <clinit>()
+tt.reducto.log.Operator: void e(java.lang.Throwable,java.lang.String,java.lang.Object[])
+tt.reducto.log.JsonTools: void addIndentBlank(java.lang.StringBuilder,int)
+tt.reducto.log.TTLogOperator: void e(java.lang.Throwable,java.lang.String,java.lang.Object[])
+tt.reducto.log.TTLog: void w(java.lang.String,java.lang.Object[])
+tt.reducto.log.BuildConfig: java.lang.String LIBRARY_PACKAGE_NAME
+tt.reducto.log.TTFormatStrategy$Companion: tt.reducto.log.TTFormatStrategy$Builder newBuilder()
+tt.reducto.log.TTFormatStrategy
+tt.reducto.log.TTLog: void d(java.lang.String,java.lang.Object[])
+tt.reducto.log.Operator: void w(java.lang.String,java.lang.Object[])
+tt.reducto.log.TTFormatStrategy: java.lang.String tag
+tt.reducto.log.TTHttpLog: TTHttpLog()
+tt.reducto.log.TTLog: void e(java.lang.String,java.lang.Object[])
+tt.reducto.log.TTFormatStrategy$Builder: void setMethodOffset(int)
+tt.reducto.log.TTLog$Companion: void log(int,java.lang.String,java.lang.String,java.lang.Throwable)
+tt.reducto.log.TTLog$Companion
+tt.reducto.log.LogcatLogStrategy: tt.reducto.log.LogcatLogStrategy$Companion Companion
+tt.reducto.log.TTFormatStrategy$Builder: int getMethodCount()
+tt.reducto.log.TTFormatStrategy$Builder: boolean getShowThreadInfo()
+tt.reducto.log.Tools: <clinit>()
+tt.reducto.log.TTFormatStrategy: TTFormatStrategy(tt.reducto.log.TTFormatStrategy$Builder)
+tt.reducto.log.TTFormatStrategy: void log(int,java.lang.String,java.lang.String)
+tt.reducto.log.TTLog: void xml(java.lang.String)
+tt.reducto.log.TTFormatStrategy: void logHeaderContent(int,java.lang.String,int)
+tt.reducto.log.TTLogOperator: TTLogOperator()
+tt.reducto.log.TTLogOperator: void i(java.lang.String,java.lang.Object[])
+tt.reducto.log.TTFormatStrategy$Builder: tt.reducto.log.TTFormatStrategy$Builder methodOffset(int)
+tt.reducto.log.FormatStrategy: void log(int,java.lang.String,java.lang.String)
+tt.reducto.log.TTLog: int ERROR
+tt.reducto.log.TTFormatStrategy$Builder: tt.reducto.log.TTFormatStrategy$Builder logStrategy(tt.reducto.log.LogStrategy)
+tt.reducto.log.LogAdapter: void log(int,java.lang.String,java.lang.String)
+tt.reducto.log.LogcatLogStrategy: LogcatLogStrategy()
+tt.reducto.log.TTFormatStrategy$Builder: java.lang.String tag
+tt.reducto.log.TTFormatStrategy$Builder: boolean showThreadInfo
+tt.reducto.log.JsonTools: <clinit>()
+tt.reducto.log.Operator: void log(int,java.lang.String,java.lang.String,java.lang.Throwable)
+tt.reducto.log.TTFormatStrategy$Builder: java.lang.String getTag()
+tt.reducto.log.TTLog: void access$setPrinter$cp(tt.reducto.log.Operator)
+tt.reducto.log.TTLog: void json(java.lang.String)
+tt.reducto.log.TTFormatStrategy$Builder: tt.reducto.log.TTFormatStrategy$Builder tag(java.lang.String)
+tt.reducto.log.TTFormatStrategy: char MIDDLE_CORNER
+tt.reducto.log.TTFormatStrategy: int getStackOffset(java.lang.StackTraceElement[])
+tt.reducto.log.R: R()
+tt.reducto.log.TTFormatStrategy$Companion: TTFormatStrategy$Companion()
+tt.reducto.log.BuildConfig: boolean DEBUG
+tt.reducto.log.TTLogOperator: tt.reducto.log.Operator t(java.lang.String)
+tt.reducto.log.TTFormatStrategy: int MIN_STACK_OFFSET
+tt.reducto.log.TTFormatStrategy$Builder: tt.reducto.log.LogStrategy getLogStrategy()
+tt.reducto.log.TTFormatStrategy$Builder: int methodCount
+tt.reducto.log.BuildConfig
+tt.reducto.log.TTLogOperator: void xml(java.lang.String)
+tt.reducto.log.Operator: void xml(java.lang.String)
+tt.reducto.log.TTFormatStrategy$Builder: tt.reducto.log.TTFormatStrategy$Builder showThreadInfo(boolean)
+tt.reducto.log.Tools
+tt.reducto.log.TTFormatStrategy$Builder: void setTag(java.lang.String)
+tt.reducto.log.TTFormatStrategy: int methodOffset
+tt.reducto.log.TTLog: int ASSERT
+tt.reducto.log.TTLog$Companion: TTLog$Companion()
+tt.reducto.log.R
+tt.reducto.log.TTHttpLog: tt.reducto.log.Operator printer
+tt.reducto.log.TTFormatStrategy: java.lang.String BOTTOM_BORDER
+tt.reducto.log.TTLog: void addLogAdapter(tt.reducto.log.LogAdapter)
+tt.reducto.log.TTHttpLog: void okHttp(java.lang.String)
+tt.reducto.log.TTHttpLog: void access$setPrinter$cp(tt.reducto.log.Operator)
+tt.reducto.log.Operator: void json(java.lang.String)
+tt.reducto.log.TTLogOperator: void d(java.lang.Object)
+tt.reducto.log.TTLog: void v(java.lang.String,java.lang.Object[])
+tt.reducto.log.LogcatLogStrategy: void log(int,java.lang.String,java.lang.String)
+tt.reducto.log.TTLog: tt.reducto.log.Operator t(java.lang.String)
+tt.reducto.log.LogStrategy
+tt.reducto.log.TTFormatStrategy$Builder: int getMethodOffset()
+tt.reducto.log.TTFormatStrategy: boolean showThreadInfo
+tt.reducto.log.AndroidLogAdapter: AndroidLogAdapter()
+tt.reducto.log.TTHttpLog: tt.reducto.log.Operator access$getPrinter$cp()
+tt.reducto.log.Operator: void addAdapter(tt.reducto.log.LogAdapter)
+tt.reducto.log.AndroidLogAdapter: tt.reducto.log.FormatStrategy formatStrategy
+tt.reducto.log.FormatStrategy
+tt.reducto.log.JsonTools: java.lang.String formatJson(java.lang.String)
+tt.reducto.log.TTHttpLog$Companion: void d(java.lang.Object)
+tt.reducto.log.TTFormatStrategy$Builder: tt.reducto.log.TTFormatStrategy$Builder methodCount(int)
+tt.reducto.log.TTFormatStrategy$Builder: tt.reducto.log.TTFormatStrategy build()
+tt.reducto.log.JsonTools
+tt.reducto.log.AndroidLogAdapter: void log(int,java.lang.String,java.lang.String)
+tt.reducto.log.TTLog: void clearLogAdapters()
+tt.reducto.log.TTFormatStrategy$Builder: void setLogStrategy(tt.reducto.log.LogStrategy)
