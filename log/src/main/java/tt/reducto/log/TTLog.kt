@@ -89,7 +89,7 @@ class TTLog private constructor() {
         }
 
         @JvmStatic
-        fun d(message: String, vararg args: Any) {
+        fun d(message: String?, vararg args: Any) {
             printer.d(message, args)
         }
 
@@ -97,33 +97,35 @@ class TTLog private constructor() {
         fun d(any: Any?) {
             any?.let {
                 printer.d(it)
+            }?: kotlin.run {
+                printer.d("log print is null")
             }
         }
 
         @JvmStatic
-        fun e(message: String, vararg args: Any?) {
+        fun e(message: String?, vararg args: Any?) {
             printer.e(message, args)
         }
 
         @JvmStatic
-        fun e(throwable: Throwable?, message: String, vararg args: Any?) {
+        fun e(throwable: Throwable?, message: String?, vararg args: Any?) {
             throwable?.let {
                 printer.e(it, message, args)
             }
         }
 
         @JvmStatic
-        fun i(message: String, vararg args: Any?) {
+        fun i(message: String?, vararg args: Any?) {
             printer.i(message, args)
         }
 
         @JvmStatic
-        fun v(message: String, vararg args: Any?) {
+        fun v(message: String?, vararg args: Any?) {
             printer.v(message, args)
         }
 
         @JvmStatic
-        fun w(message: String, vararg args: Any?) {
+        fun w(message: String?, vararg args: Any?) {
             printer.w(message, args)
         }
 
@@ -131,7 +133,7 @@ class TTLog private constructor() {
          *
          */
         @JvmStatic
-        fun wtf(message: String, vararg args: Any?) {
+        fun wtf(message: String?, vararg args: Any?) {
             printer.wtf(message, args)
         }
 

@@ -33,6 +33,7 @@ internal class TTLogOperator : Operator {
     /* 缩进距离 */
     private val JSON_INDENT = 2
 
+    private val MSG_DEFAULT = "the log message is null, please check!"
     /**
      * 根据 线程信息 保存 TAG 。
      */
@@ -52,36 +53,36 @@ internal class TTLogOperator : Operator {
         return this
     }
 
-    override fun d(message: String, vararg args: Any) {
-        tLog(DEBUG, null, message, args)
+    override fun d(message: String?, vararg args: Any) {
+        tLog(DEBUG, null, message?:MSG_DEFAULT, args)
     }
 
-    override fun d(any: Any) {
+    override fun d(any: Any?) {
         tLog(DEBUG, null, Tools.toString(any), null)
     }
 
-    override fun e(message: String, vararg args: Any) {
-        tLog(ERROR, null, message, args)
+    override fun e(message: String?, vararg args: Any) {
+        tLog(ERROR, null, message?:MSG_DEFAULT, args)
     }
 
-    override fun e(throwable: Throwable, message: String, vararg args: Any) {
-        tLog(ERROR, throwable, message, args)
+    override fun e(throwable: Throwable, message: String?, vararg args: Any) {
+        tLog(ERROR, throwable, message?:MSG_DEFAULT, args)
     }
 
-    override fun w(message: String, vararg args: Any) {
-        tLog(WARN, null, message, args)
+    override fun w(message: String?, vararg args: Any) {
+        tLog(WARN, null, message?:"", args)
     }
 
-    override fun i(message: String, vararg args: Any) {
-        tLog(INFO, null, message, args)
+    override fun i(message: String?, vararg args: Any) {
+        tLog(INFO, null, message?:MSG_DEFAULT, args)
     }
 
-    override fun v(message: String, vararg args: Any) {
-        tLog(VERBOSE, null, message, args)
+    override fun v(message: String?, vararg args: Any) {
+        tLog(VERBOSE, null, message?:MSG_DEFAULT, args)
     }
 
-    override fun wtf(message: String, vararg args: Any) {
-        tLog(ASSERT, null, message, args)
+    override fun wtf(message: String?, vararg args: Any) {
+        tLog(ASSERT, null, message?:MSG_DEFAULT, args)
     }
 
     override fun json(json: String?) {
