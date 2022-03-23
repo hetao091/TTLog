@@ -35,7 +35,7 @@ interface LogAdapter {
     fun log(priority: Int, tag: String?, message: String)
 }
 
-class AndroidLogAdapter : LogAdapter {
+open class AndroidLogAdapter : LogAdapter {
     private val formatStrategy: FormatStrategy
 
     constructor() {

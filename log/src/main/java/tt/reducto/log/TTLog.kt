@@ -36,9 +36,9 @@ class TTLog private constructor() {
         private var printer: Operator = TTLogOperator()
         private var mDefaultAdapter = AndroidLogAdapter()
 
-        init {
-            printer.addAdapter(mDefaultAdapter)
-        }
+//        init {
+//            printer.addAdapter(mDefaultAdapter)
+//        }
 
         /**
          * 添加自定义打印配置。
