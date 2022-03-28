@@ -40,10 +40,13 @@ class TTHttpLog private constructor() {
          * okHttp 打印.
          */
         @JvmStatic
-        fun okHttp(message: String) {
+        fun okHttp(message: String, isLoggable: Boolean = true) {
+            if (!isLoggable)
+                return
             // 请求或者响应开始
-            if (message.startsWith("--> POST")|| message.startsWith("--> GET")
-                || message.startsWith("--> PUT") || message.startsWith("--> DELETE")) {
+            if (message.startsWith("--> POST") || message.startsWith("--> GET")
+                || message.startsWith("--> PUT") || message.startsWith("--> DELETE")
+            ) {
                 mOkHttpBuilder.setLength(0)
             }
             mOkHttpBuilder.append(message).append("\n")
