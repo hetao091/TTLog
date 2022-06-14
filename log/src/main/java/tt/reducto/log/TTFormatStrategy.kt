@@ -114,16 +114,11 @@ class TTFormatStrategy private constructor(builder: Builder) : FormatStrategy {
         var mMethodCount = methodCount
         val trace = Thread.currentThread().stackTrace
         if (showThreadInfo) {
-            logChunk(
-                logType,
-                tag,
-                HORIZONTAL_LINE.toString() + " Thread: " + Thread.currentThread().name
-            )
+            logChunk(logType, tag, HORIZONTAL_LINE.toString() + " Thread: " + Thread.currentThread().name)
             logDivider(logType, tag)
         }
         var level = ""
         val stackOffset = getStackOffset(trace) + methodOffset
-
         if (mMethodCount + stackOffset > trace.size) {
             mMethodCount = trace.size - stackOffset - 1
         }
@@ -188,7 +183,7 @@ class TTFormatStrategy private constructor(builder: Builder) : FormatStrategy {
         while (i < trace.size) {
             val e = trace[i]
             val name = e.className
-            if (name != TTLogOperator::class.java.name && name != TTLog::class.java.name) {
+            if (name != TTLogOperator::class.java.name && !name.contains("tt.reducto.log.TTLog")) {
                 return --i
             }
             i++
