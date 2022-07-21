@@ -20,7 +20,7 @@ package tt.reducto.log
 class TTHttpLog private constructor() {
 
     companion object {
-        private val mOkHttpBuilder = StringBuilder()
+        private val mOkHttpBuffer = StringBuffer()
         private var printer: Operator = TTLogOperator()
 
         init {
@@ -47,20 +47,30 @@ class TTHttpLog private constructor() {
             if (message.startsWith("--> POST") || message.startsWith("--> GET")
                 || message.startsWith("--> PUT") || message.startsWith("--> DELETE")
             ) {
-                mOkHttpBuilder.setLength(0)
+                try {
+                    mOkHttpBuffer.setLength(0)
+                } catch (e: Exception) {
+                    e.printStackTrace()
+                    return
+                }
             }
-            mOkHttpBuilder.append(message).append("\n")
+            mOkHttpBuffer.append(message).append("\n")
             // 响应结束，打印整条日志
             if ((message.startsWith("{") && message.endsWith("}"))
                 || (message.startsWith("[") && message.endsWith("]"))
             ) {
                 /* 格式化 json */
-                mOkHttpBuilder.append(JsonTools.formatJson(JsonTools.decodeUnicode(message)))
-                mOkHttpBuilder.append("\n")
+                mOkHttpBuffer.append(JsonTools.formatJson(JsonTools.decodeUnicode(message)))
+                mOkHttpBuffer.append("\n")
             }
             if (message.startsWith("<-- END HTTP")) {
-                d(mOkHttpBuilder.toString())
-                mOkHttpBuilder.setLength(0)
+                d(mOkHttpBuffer.toString())
+                try {
+                    mOkHttpBuffer.setLength(0)
+                } catch (e: Exception) {
+                    e.printStackTrace()
+                    return
+                }
             }
         }
     }
