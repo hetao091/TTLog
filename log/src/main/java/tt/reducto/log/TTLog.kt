@@ -63,7 +63,7 @@ class TTLog private constructor() {
         }
 
         /**
-         * 清楚装饰器。
+         * 清除装饰器。
          */
         @JvmStatic
         fun clearLogAdapters() {
