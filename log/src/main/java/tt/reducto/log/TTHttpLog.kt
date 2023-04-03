@@ -48,7 +48,6 @@ class TTHttpLog private constructor() {
         fun okHttp(message: String, isLoggable: Boolean = true) {
             if (!isLoggable)
                 return
-            Log.d("message ",message)
             // 请求或者响应开始
             if (message.startsWith("--> POST") || message.startsWith("--> GET")
                 || message.startsWith("--> PUT") || message.startsWith("--> DELETE")
